@@ -5,16 +5,16 @@
 
 ## Introduction
 이 프로젝트는 **PX4 드론의 MAVLink 데이터를 분석**하고,  
-**HackRF를 활용한 GPS 스푸핑 및 재밍 실험**을 수행하여 드론의 비행에 미치는 영향을 연구하는 것을 목표로 합니다.
+**HackRF를 활용한 GPS 스푸핑 및 재밍 실험**을 수행하여 드론의 비행에 미치는 영향을 연구하는 것을 목표로 한다.
 
 ## 📡 MAVLink Data Logging & Analysis
 ### MAVLink란?
-MAVLink(Micro Air Vehicle Link)는 **드론과 지상통제시스템(GCS) 간의 통신을 위한 경량 메시지 프로토콜**입니다.  
-비행 중 발생하는 **GPS 데이터, 속도, 고도, 자세(Attitude), 조종기 입력 값** 등을 전송하는 역할을 합니다.
-
+MAVLink(Micro Air Vehicle Link)는 **드론과 지상통제시스템(GCS) 간의 통신을 위한 경량 메시지 프로토콜**이다.  
+비행 중 발생하는 **GPS 데이터, 속도, 고도, 자세(Attitude), 조종기 입력 값** 등을 전송하는 역할을 한다.
+0
 ### MAVLink 데이터 저장 과정
 MAVLink 데이터는 기본적으로 자동 저장되지 않으며,  
-로그 데이터는 **PX4 내부 SD 카드** 또는 **GCS(QGroundControl)에서 수집한 TLOG 파일**을 통해 기록됩니다.
+로그 데이터는 **PX4 내부 SD 카드** 또는 **GCS(QGroundControl)에서 수집한 TLOG 파일**을 통해 기록된다.
 
 - **TLOG 파일 (`.tlog`)**  
   - MAVLink 원본 데이터를 기록  
@@ -29,7 +29,7 @@ MAVLink 데이터는 기본적으로 자동 저장되지 않으며,
 
 ## 🛰️ GPS Spoofing & Jamming Experiment
 ### 실험 개요
-**HackRF와 GPS-SDR-SIM을 이용하여 PX4 드론의 GPS 신호를 변조(스푸핑)하거나 방해(재밍)하여, 비행 데이터에 미치는 영향을 분석하는 실험을 수행합니다.**
+**HackRF와 GPS-SDR-SIM을 이용하여 PX4 드론의 GPS 신호를 변조(스푸핑)하거나 방해(재밍)하여, 비행 데이터에 미치는 영향을 분석하는 실험을 수행한다.**
 
 ### 실험 목표
 **GPS 스푸핑**: 드론의 위치 정보를 변조하여 의도된 좌표로 이동하도록 유도  
