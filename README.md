@@ -1,7 +1,7 @@
 # PX4_MAVLink-Benign-data-set-analysis
 
 # MAVLink Data Analysis & GPS Spoofing Experiment
-**PX4 기반 드론의 MAVLink 데이터 분석 및 GPS 스푸핑 실험**
+**PX4 기반 드론의 MAVLink 데이터 분석 및 GPS Spoofing 실험**
 
 ## Introduction
 이 프로젝트는 **PX4 드론의 MAVLink 데이터를 분석**하고,  
